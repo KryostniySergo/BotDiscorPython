@@ -1,0 +1,14 @@
+Если всё наебнулось то нужно:
+1) зайти в Git Bash в этой папке
+2) прописать комманду heroku run bash -a {galonet}-->(название проги(указано в heroku))
+3) проверить наличие файла SaveData.json
+4) написать python
+5) написать функцию
+>>import json
+>>with open("SaveData.json", "r") as r:
+(произвести табуляцию)
+...	dat = json.load(r)
+...	print(dat)
+(выведется содиржимое SaveData.json)
+6)Скопировать и вставить в свой SaveData.json
+7) Заменит '' на ""
